@@ -1,13 +1,20 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { BiCool, BiDesktop } from "react-icons/bi";
+import { Home, About, Contact, Project } from "./router";
+import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <h1>
-        <BiCool></BiCool>
-        <BiDesktop></BiDesktop>
-      </h1>
+    <div>
+      <BrowserRouter>
+        <Nav></Nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
