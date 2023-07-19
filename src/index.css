@@ -40,5 +40,8 @@ ul {
 .btn:hover {
   background-color: rgb(105, 95, 247);
   color: #fff;
-  transition: 0.3s;
+  transition: 0.4s;
+  box-shadow: 0px 0px 1em 0.25em rgb(105, 95, 247),
+    inset 0 0 0.75em 0.25em rgb(140, 132, 241);
+  color: black;
 }

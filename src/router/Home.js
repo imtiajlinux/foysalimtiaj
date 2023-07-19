@@ -1,8 +1,13 @@
 import React from "react";
 import "./HomeStyle.css";
+import HeroImg from "../components/HeroImg";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <HeroImg />
+    </div>
+  );
 };
 
 export default Home;
