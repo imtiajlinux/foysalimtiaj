@@ -1,0 +1,23 @@
+.project-section .project-header {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  text-transform: uppercase;
+}
+
+.project-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+@media screen and (max-width: 900px) {
+  .project-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import "./FooterStyle.css";
 import React from "react";
+import myphoto from "../asscet/my photo in haji.png";
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               ></FaPhone>
               {"    "}
-              +88013031847
+              +88013031847##
             </h2>
           </div>
           <div className="email">
@@ -42,6 +43,9 @@ const Footer = () => {
               foysal.imtiaj1@gmail.com
             </h2>
           </div>
+        </div>
+        <div className="mid-container">
+          <img className="myphoto" src={myphoto} alt="myphoto" />
         </div>
         <div className="right-container">
           <h2>About Myself </h2>

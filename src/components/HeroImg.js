@@ -8,11 +8,11 @@ const HeroImg = () => {
     <div className="hero">
       <div className="mask">
         <img className="into-img" src={IntroImg} alt="heroImgHome" />
-      </div>
-      <div className="content">
-        <p>Hi, I AM A FRONT_END WEB LEARNER</p>
-        <h1>React Developer.</h1>
-        <div>
+        <div className="content">
+          <p>Hi, I AM A FRONT_END WEB LEARNER</p>
+          <h1>React Developer.</h1>
+          <div></div>
+
           <Link className="btn" to="/project">
             Projects
           </Link>

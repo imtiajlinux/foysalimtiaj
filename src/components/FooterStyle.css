@@ -9,11 +9,14 @@ h2 {
 p {
   font-size: 1.1rem;
 }
+.location p {
+  text-transform: capitalize;
+}
 .footer-container {
   max-width: 1140px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
 }
 .left-container {
@@ -37,6 +40,15 @@ p {
   flex-direction: column;
   padding: 1rem;
   text-align: justify;
+}
+.mid-container .myphoto {
+  width: 100px;
+  height: 100px;
+}
+.mid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .social-logo {
   margin-top: 1rem;

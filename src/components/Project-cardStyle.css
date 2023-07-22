@@ -1,0 +1,23 @@
+.project-card {
+  background-color: rgba(20, 20, 30, 9);
+  padding: 4.2rem 1rem;
+}
+.project-titel {
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.pro-ditails {
+  font-size: 1rem;
+  text-align: justify;
+}
+.project-card img {
+  width: 100%;
+}
+.pro-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 0 0;
+}
+.pro-ditails p {
+  text-transform: capitalize;
+}
