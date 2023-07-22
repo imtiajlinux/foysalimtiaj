@@ -6,8 +6,8 @@ import ProjectCard from "../components/ProjectCard";
 import projectCardData from "../components/ProjectData";
 
 const data = {
-  name: "project",
-  titel: "there some project that have i done by my self",
+  name: "project.",
+  titel: "Here are some of my self-initiated projects.",
   img: coddingWithLaptop,
 };
 
@@ -16,7 +16,7 @@ const Project = () => {
     <div>
       <Heroimg2 data={data}></Heroimg2>
       <div className="project-section">
-        <h1 className="project-header">project</h1>
+        {/* <h1 className="project-header">project</h1> */}
         <div className="project-container">
           {projectCardData.map((val, ind) => {
             return (

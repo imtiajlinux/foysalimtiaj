@@ -5,7 +5,7 @@
 }
 .hero-img {
   height: 60vh;
-  width: 100%;
+  width: 100;
 }
 .into-img2 {
   width: 100%;
@@ -49,4 +49,12 @@
 .heading h4 {
   font-size: 1.2rem;
   text-transform: capitalize;
+  max-width: 80%;
+}
+@media screen and (max-width: 430px) {
+  .heading h4 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    max-width: 95%;
+  }
 }
