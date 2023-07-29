@@ -12,7 +12,7 @@ const HeroImg = () => {
         <div className="content">
           {/* <p>Hi, I AM A FRONT_END WEB LEARNER</p> */}
           <p>
-            hi{" "}
+            hi ,{" "}
             <span
               style={{
                 textTransform: "capitalize",

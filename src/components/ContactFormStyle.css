@@ -28,6 +28,8 @@ form .button {
 }
 .button .btn {
   border-radius: 4px;
+
+  width: 98%;
 }
 @media screen and (max-width: 494px) {
   .fastline {
@@ -36,5 +38,10 @@ form .button {
   .scendline input,
   .lastline textarea {
     width: 100%;
+  }
+  .button .btn {
+    width: 100%;
+    margin-left: 0.3rem;
+    margin-right: -0.3rem;
   }
 }

@@ -17,7 +17,10 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left-container">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaHome
+              size={20}
+              style={{ color: "#fff", marginRight: "1.3rem" }}
+            />
             <div>
               <p>manikgonj dhaka</p>
               <p>bangladesh</p>
@@ -27,7 +30,7 @@ const Footer = () => {
             <h2>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#fff", marginRight: "1rem" }}
               ></FaPhone>
               {"    "}
               +88013031847##
@@ -37,9 +40,8 @@ const Footer = () => {
             <h2>
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              ></FaMailBulk>
-              {"  "}
+                style={{ color: "#fff", marginRight: ".4rem" }}
+              ></FaMailBulk>{" "}
               foysal.imtiaj1@gmail.com
             </h2>
           </div>
