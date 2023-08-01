@@ -24,6 +24,10 @@
   height: 100%;
   width: 100%;
 }
+.myphotoo {
+  height: 8rem;
+  padding-bottom: 1rem;
+}
 /* .hero .content {
   position: relative;
   transform: translate(-50%, -400%);
@@ -37,6 +41,11 @@
   z-index: 1;
   text-align: center;
 }
+.hero-icon {
+  font-size: 2rem;
+  color: cyan;
+  margin: 0.4rem 1rem;
+}
 
 .hero .content h1 {
   font-size: 3.5rem;
@@ -49,6 +58,7 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-wrap: balance;
 }
 .hero .content p {
   font-size: 1.4rem;
